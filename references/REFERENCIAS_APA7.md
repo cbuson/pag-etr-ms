@@ -1,0 +1,14 @@
+# Referências científicas de PAG ETR
+
+Bibliografia específica do PAG ETR. Reúne modelos de depósitos, trabalhos metodológicos internacionais e fontes geocientíficas primárias de Mato Grosso do Sul. Nenhum modelo mundial é tratado como prova de equivalência local.
+
+- **REF-146** · Verplanck, P. L., Van Gosen, B. S., Seal, R. R., & McCafferty, A. E. (2014). A deposit model for carbonatite and peralkaline intrusion-related rare earth element deposits. U.S. Geological Survey Scientific Investigations Report 2010–5070–J. https://doi.org/10.3133/sir20105070J
+- **REF-148** · Emsbo, P., McLaughlin, P. I., Breit, G. N., du Bray, E. A., & Koenig, A. E. (2015). Rare earth elements in sedimentary phosphate deposits: Solution to the global REE crisis? Gondwana Research, 27(2), 776–785. https://doi.org/10.1016/j.gr.2014.10.008
+- **REF-156** · Remédio, M. J., & Faleiros, F. M. (Orgs.). (2014). Geologia e recursos minerais da folha Fazenda Margarida – SF.21-X-C-IV, estado de Mato Grosso do Sul. CPRM. Escala 1:100.000. https://rigeo.sgb.gov.br/handle/doc/21801
+- **REF-157** · Justo, L. J. E. Q. (2000). Fosfato da Serra da Bodoquena, Mato Grosso do Sul. CPRM. Informe de Recursos Minerais, Série Insumos Minerais para Agricultura, 2. https://rigeo.sgb.gov.br/handle/doc/1567
+- **REF-158** · Godoi, H. O. (Org.). (2001). Aquidauana, folha SF.21-X-A, estado de Mato Grosso do Sul. CPRM. Escala 1:250.000. Programa Levantamentos Geológicos Básicos do Brasil. https://rigeo.sgb.gov.br/bitstream/doc/10190/1/projeto_aquidauana.pdf
+- **REF-159** · Godoi, H. O., Martins, E. G., Mello, J. C. R. de, & Scislewski, G. (Orgs.). (2001). Corumbá, folha SE.21-Y-D, Aldeia Tomázia, folha SF.21-V-B, Porto Murtinho, folha SF.21-V-D, estado de Mato Grosso do Sul. CPRM. Escala 1:250.000. Programa Levantamentos Geológicos Básicos do Brasil. https://rigeo.sgb.gov.br/handle/doc/5658
+- **REF-160** · Lacerda Filho, J. V. (2015). Bloco Rio Apa: origem e evolução tectônica [Tese]. Serviço Geológico do Brasil. https://rigeo.sgb.gov.br/bitstream/doc/15295/1/TD_LACERDA_FILHO.pdf
+- **REF-002** · Lacerda Filho, J. V., Brito, R. S. C., Silva, M. G., Oliveira, C. C., Moreton, L. C., Martins, E. G., Lopes, R. C., Lima, T. M., Larizzatt, J. H., & Valente, C. R. (2006). Geologia e recursos minerais do estado de Mato Grosso do Sul: Texto explicativo dos mapas geológico e de recursos minerais do estado de Mato Grosso do Sul. CPRM. Escala 1:1.000.000. https://rigeo.sgb.gov.br/handle/doc/10217
+- **REF-003** · Serviço Geológico do Brasil. (s.d.). GeoSGB. Banco de dados de geociências do Serviço Geológico do Brasil. Recuperado em 12 de agosto de 2026. https://geosgb.sgb.gov.br/
+- **REF-054** · Serviço Geológico do Brasil. (s.d.). Geoquímica Ambiental e Geologia Médica. Recuperado em 12 de agosto de 2026. https://www.sgb.gov.br/geoquimica-ambiental-saiba-mais

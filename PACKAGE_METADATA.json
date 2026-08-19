@@ -1,0 +1,21 @@
+{
+  "package": "PAG ETR reproducible pilot",
+  "source_project": "ITA ARANDU MS",
+  "source_archive": "atlas-geocientifico-ms-main.zip",
+  "source_commit_from_archive_comment": "85276d4571ee9313205229433cd76bb11bf67fac",
+  "methodological_cut": "2026-08-13",
+  "package_built": "2026-08-18",
+  "scope": "M2/M4 spatial pilot and frozen supporting/context layers",
+  "authors_from_parent_zenodo": [
+    {
+      "name": "Busón Buesa, Carlos",
+      "orcid": "0000-0002-1446-2252",
+      "affiliation": "Universidade Federal de Mato Grosso do Sul (UFMS)"
+    },
+    {
+      "name": "Gabas, Sandra Garcia",
+      "orcid": "0000-0002-1027-0288",
+      "affiliation": "Universidade Federal de Mato Grosso do Sul (UFMS)"
+    }
+  ]
+}

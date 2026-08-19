@@ -1,0 +1,4 @@
+scale_km2,cells,open,m2,m4,matches_expected
+250,1554,49,3,46,True
+500,793,37,3,34,True
+1000,412,24,2,22,True

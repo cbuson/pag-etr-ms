@@ -1,0 +1,23 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Reprodutibilidade e auditoria · PAG ETR</title>
+<style>
+:root{--b:#5b351f;--b2:#7a4b2f;--cream:#f6f0ea;--line:#ddcfc3;--text:#352b25}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f2ef;color:var(--text);line-height:1.58}
+header{background:linear-gradient(135deg,#4a2a1b,#70452d);color:white;padding:22px}
+header .wrap,main{max-width:1120px;margin:auto}.k{font-size:12px;font-weight:800;letter-spacing:.13em;opacity:.8}
+h1{margin:5px 0 2px;font-size:28px}h2{color:var(--b);margin-top:28px}
+main{padding:24px 18px 60px}.card{background:white;border:1px solid var(--line);border-radius:14px;padding:18px;margin:12px 0}
+.note{background:#f4e9df;border-left:4px solid #9a6a49;padding:13px 15px;border-radius:8px}
+.badge{display:inline-block;background:#eee1d6;color:#5b351f;border:1px solid #d9c3b1;border-radius:999px;padding:4px 9px;margin:2px;font-weight:700;font-size:12px}
+a{color:#6b4229}.back{display:inline-block;margin-bottom:12px;font-weight:700}
+.ref{padding:11px 0;border-bottom:1px solid #eadfd6;overflow-wrap:anywhere}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}h1{font-size:23px}}
+</style></head><body><header><div class="wrap"><div class="k">AJUDA PAG ETR</div>
+<h1>Reprodutibilidade e auditoria</h1></div></header><main><a class="back" href="../index.html">← Voltar ao PAG ETR</a>
+<div class="card"><h2>Cadeia auditável</h2><p>fonte → snapshot → evidência → regra → modelo → interseção espacial → hex_id → estado → resultado congelado</p></div>
+<div class="card"><h2>Versionamento</h2><p>RESULTADO = f(DATA_VERSION, RULE_VERSION, GRID_VERSION, MODEL_LIBRARY_VERSION)</p></div>
+<div class="card"><h2>Reprodução computacional</h2><p>O pipeline reproduziu 49, 37 e 24 células N1 nas malhas de 250, 500 e 1.000 km² e recuperou os mesmos conjuntos de hex_id.</p></div>
+<div class="card"><h2>Testes</h2><p>Quinze verificações executáveis da versão materializada produziram PASS. Isso demonstra conformidade e determinismo do snapshot, não validade preditiva.</p></div>
+<div class="note"><b>Limite</b><br>VALIDAÇÃO COMPUTACIONAL não é VALIDAÇÃO PREDITIVA. VALIDAÇÃO DOCUMENTAL não é VALIDAÇÃO DE CAMPO.</div>
+</main></body></html>

@@ -1,0 +1,19 @@
+camada,classe,entra_no_motor_atual,papel_repositorio,funcao
+pag_etr_250km2.geojson,resultado,SIM,Núcleo,Resultado lógico 250 km²
+pag_etr_500km2.geojson,resultado,SIM,Núcleo,Resultado lógico 500 km²
+pag_etr_1000km2.geojson,resultado,SIM,Núcleo,Resultado lógico 1000 km²
+pag_etr_evidencia_m2_feixe_morros.geojson,evidência,SIM,Núcleo,M2 · contexto alcalino espacializado
+pag_etr_evidencia_m4_fosforitos.geojson,evidência,SIM,Núcleo,M4 · unidades fosforíticas espacializadas
+pag_etr_pontos_fosforo.geojson,evidência,SIM,Núcleo,M4 · registros pontuais de fósforo
+mapa_geologico_ms.geojson,fonte,SIM,Núcleo,Base para reconstrução M2/M4
+mapa_recursos_minerais_ms.geojson,fonte,SIM,Núcleo,Base para reconstrução dos pontos de fósforo
+geoquimica_amostras_sgb_ms.geojson,contexto,CONDICIONAL,Apoio prioritário,Disponibilidade geoquímica
+petrografia_geosgb_ms.geojson,contexto,CONDICIONAL,Apoio prioritário,Descrição mineralógica/petrográfica
+afloramentos_geosgb_ms.geojson,contexto,NÃO,Contexto,Cobertura de observações de campo
+geocronologia_geosgb_ms.geojson,contexto,CONDICIONAL,Apoio,Controle temporal
+aerogeofisica_projetos_sgb_ms.geojson,contexto,NÃO AUTOMÁTICO,Contexto prioritário,Cobertura aerogeofísica
+cobertura_escalas_mapeamento_ms.geojson,contexto,NÃO,Contexto prioritário,Cobertura e escala do conhecimento
+inventario_geocientifico_fase3.geojson,contexto,NÃO,Contexto,Inventário geocientífico
+ipg_250km2.geojson,contexto analítico,NÃO,Contexto analítico,Comparação com conhecimento documentado
+ipg_500km2.geojson,contexto analítico,NÃO,Contexto analítico,Comparação multiescalar
+ipg_1000km2.geojson,contexto analítico,NÃO,Contexto analítico,Comparação multiescalar

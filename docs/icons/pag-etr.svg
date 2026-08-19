@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+<rect width="192" height="192" rx="34" fill="#f7f2ed"/>
+<polygon points="96,15 160,52 160,126 96,163 32,126 32,52" fill="#5b351f" stroke="#3c2115" stroke-width="8"/>
+<polygon points="96,31 146,60 146,118 96,147 46,118 46,60" fill="#7a4b2f" stroke="#d6a052" stroke-width="4"/>
+<text x="96" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#fff">ETR</text>
+</svg>

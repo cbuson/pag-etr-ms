@@ -1,0 +1,23 @@
+{
+  "version": "V4_ARTIGO_DOCS_COMPLETO",
+  "article": "PAG_ETR_EarthArXiv_V17_INTEGRADO_DOCS.docx",
+  "default_map_layers": [
+    "PAG ETR 250 km²",
+    "Limite de Mato Grosso do Sul",
+    "Limites municipais"
+  ],
+  "pilot_evidence_layers": [
+    "M2 Corpo Feixe dos Morros",
+    "M4 unidades fosforíticas",
+    "Registros pontuais de fósforo"
+  ],
+  "base_grids": [
+    "250 km²",
+    "500 km²",
+    "1000 km²"
+  ],
+  "methodology_page": "docs/metodologia-completa.html",
+  "authorship_rights_page": "docs/autoria-direitos.html",
+  "territorial_source": "IBGE Malhas territoriais de 2025",
+  "territorial_snapshot_provenance": "parcial segundo metadados recebidos"
+}

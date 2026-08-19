@@ -1,0 +1,68 @@
+{
+  "validation": [
+    {
+      "scale": 250,
+      "cells": 1554,
+      "open": 49,
+      "m2": 3,
+      "m4": 46,
+      "status": "PASS"
+    },
+    {
+      "scale": 500,
+      "cells": 793,
+      "open": 37,
+      "m2": 3,
+      "m4": 34,
+      "status": "PASS"
+    },
+    {
+      "scale": 1000,
+      "cells": 412,
+      "open": 24,
+      "m2": 2,
+      "m4": 22,
+      "status": "PASS"
+    }
+  ],
+  "geometry_findings": [
+    {
+      "id": "C02-F01",
+      "status": "PASS",
+      "text": "limite_ms_ibge_2025 tem cópia computacional válida; original preservado."
+    },
+    {
+      "id": "C02-F02",
+      "status": "PASS",
+      "text": "malha_500km2 conserva 793 IDs e corrige 3 geometrias somente na cópia computacional."
+    },
+    {
+      "id": "C02-F03",
+      "status": "PASS",
+      "text": "malha_1000km2 conserva 412 IDs e corrige 3 geometrias somente na cópia computacional."
+    },
+    {
+      "id": "C02-F04",
+      "status": "PASS",
+      "text": "malha_r5_250km2 conserva 1554 IDs e 0 geometrias inválidas; não foi alterada."
+    },
+    {
+      "id": "C02-F05",
+      "status": "OBSERVACAO",
+      "text": "A malha 250 possui diferença simétrica de 135.858 km² frente ao limite estadual atual. Isso indica linhagem de recorte distinta; não reclipar."
+    },
+    {
+      "id": "C02-F06",
+      "status": "OBSERVACAO",
+      "text": "A malha 250 possui 8 micro-sobreposições >1 m², total 0.004444 km². Preservadas e documentadas."
+    },
+    {
+      "id": "C02-F07",
+      "status": "PASS",
+      "text": "A feição Formação Pantanal em mapa_hidrogeologico_ms possui cópia computacional válida; atributos preservados."
+    }
+  ],
+  "geometry_method": "Shapely 2.1.2 · make_valid()",
+  "geometry_version": "V38.4.3-C02-geometria-computacional-20260814",
+  "date": "2026-08-14"
+}

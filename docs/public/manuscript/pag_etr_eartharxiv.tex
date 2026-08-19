@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{eartharxiv}
+\usepackage[numbers,square]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lineno}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{authblk}
+\hypersetup{colorlinks=true,linkcolor=purple,urlcolor=blue,citecolor=cyan,anchorcolor=black}
+
+\title{PAG ETR · um modelo lógico e reprodutível de analogia geológica para priorização de investigação geoquímica de elementos terras raras em territórios com dados incompletos. Aplicação em Mato Grosso do Sul, Brasil}
+\author[1]{Carlos Busón Buesa\thanks{\texttt{carlos.buson@ufms.br}}}
+\affil[1]{Universidade Federal de Mato Grosso do Sul · Programa de Pós-Graduação em Tecnologias Ambientais · FAENG}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\textit{Resumo a redigir após a auditoria editorial final. O pacote não preenche esta seção por inferência.}
+\end{abstract}
+
+\noindent\textbf{Palavras-chave} elementos terras raras, prospecção geoquímica, analogia geológica, reprodutibilidade, Mato Grosso do Sul
+
+\section{Introdução}
+Conteúdo em elaboração a partir do manuscrito mestre preservado no repositório.
+
+\section{Contexto geológico e metalogenético}
+Conteúdo em elaboração a partir do manuscrito mestre preservado no repositório.
+
+\section{Dados e proveniência}
+O pacote reprodutível preserva as fontes congeladas usadas no piloto espacial, as evidências derivadas, as três malhas de análise, os resultados congelados, os resultados reproduzidos e os registros de auditoria.
+
+\section{Metodologia PAG ETR}
+PAG ETR usa estados lógicos categóricos. No piloto espacial materializado, N0 representa condição não avaliável e N1 representa modelo aberto. A ausência de evidência materializada não é convertida em ausência geológica.
+
+\subsection{Biblioteca de modelos M1 a M11}
+A especificação executável e o catálogo de testes estão preservados no diretório \texttt{methodology}.
+
+\subsection{Arquitetura multiescala}
+As malhas de 250, 500 e 1000 km$^2$ são avaliadas de forma independente.
+
+\section{Implementação do piloto espacial em Mato Grosso do Sul}
+O piloto espacial reproduz M2 a partir do Corpo Feixe dos Morros e M4 a partir da Formação Bocaina, Formação Tamengo e registros de fósforo preservados nas bases congeladas do pacote.
+
+\section{Resultados}
+A reprodução validada recupera 49 células em estado de modelo aberto na malha de 250 km$^2$, 37 na malha de 500 km$^2$ e 24 na malha de 1000 km$^2$.
+
+\begin{table}[ht]
+\centering
+\caption{Resultado congelado e reproduzido do piloto espacial M2 e M4}
+\begin{tabular}{rrrrr}
+\toprule
+Escala km$^2$ & Células & N1 & M2 & M4 \\
+\midrule
+250 & 1554 & 49 & 3 & 46 \\
+500 & 793 & 37 & 3 & 34 \\
+1000 & 412 & 24 & 2 & 22 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.92\linewidth]{figures/PAG_ETR_250km2.png}
+\caption{PAG ETR na malha de 250 km$^2$. Figura preservada no pacote reprodutível.}
+\end{figure}
+
+\section{Validação e testes}
+A validação compara os identificadores exatos dos hexágonos reproduzidos com os resultados congelados. O log V2 registra PASS nas três escalas.
+
+\section{Discussão}
+Conteúdo em elaboração a partir do manuscrito mestre preservado no repositório.
+
+\section{Limitações}
+O pacote reproduz o piloto espacial materializado M2 e M4. Ele não reconstrói por inferência os modelos que permaneceram sem requisitos ou geometrias espacializadas suficientes no corte congelado. O resultado PAG ETR identifica zonas de investigação e não demonstra jazimento, recurso, reserva, teor econômico ou autorização de campo.
+
+\section{Conclusões}
+Conteúdo em elaboração a partir do manuscrito mestre preservado no repositório.
+
+\section*{Disponibilidade de código e dados}
+O repositório inclui scripts de reprodução, testes, dados congelados, resultados reproduzidos, auditorias, figuras e a interface cartográfica publicada por GitHub Pages.
+
+\end{document}

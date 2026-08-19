@@ -1,0 +1,78 @@
+# Especificação lógica do PAG ETR
+
+Esta transcrição organiza as regras presentes na metodologia original do ITA ARANDU MS. Não introduz pesos, probabilidades ou novas regras.
+
+## Estados
+
+- N0 · Não avaliável
+- N1 · Modelo aberto
+- N2 · Justifica prospecção geoquímica
+- N3 · Evidência local compatível
+- N4 · Contradito localmente
+
+## Não compensação
+
+```text
+C + C + C + C ≠ F
+A + A + A ≠ F
+SEM_DADO ≠ 0
+```
+
+## Regras M1 a M11
+
+```text
+M1_N1 = MAG_CARBONATITO
+M1_N2 = M1_N1 ∧ PROCESSO_CARBONATITICO_COMPATIVEL
+M1_N3 = M1_N2 ∧ ETR_LOCAL_COMPATIVEL_M1
+
+M2_N1 = MAG_ALCALINO
+M2_N2 = M2_N1 ∧ ESPECIALIZACAO_ALCALINA
+M2_N3 = M2_N2 ∧ ETR_LOCAL_COMPATIVEL_M2
+
+M3_N1 = HIDROTERMALISMO
+M3_N2 = M3_N1 ∧ FONTE_FERTIL ∧ PATHWAY_OU_TRAP
+M3_N3 = M3_N2 ∧ ETR_HIDROTERMAL
+
+M4_N1 = SED_FOSFORITA
+M4_N2 = M4_N1 ∧ APATITA_FOSFATICA ∧ ORIGEM_SEDIMENTAR
+M4_N3 = M4_N2 ∧ REE_REY_FOSFATO
+
+M5_N1 = IOA_CONFIRMADO ∨ IOCG_CONFIRMADO
+M5_N2 = (IOA_CONFIRMADO ∧ APATITA_RELACIONADA) ∨ (IOCG_CONFIRMADO ∧ EVIDENCIA_ETR_RELEVANTE)
+M5_N3 = M5_N2 ∧ ETR_LOCAL_COMPATIVEL_M5
+
+M6_N1 = TRAP_SEDIMENTAR
+M6_N2 = M6_N1 ∧ MINERAIS_PESADOS ∧ FONTE_POTENCIAL
+M6_N3 = M6_N2 ∧ MONAZITA_OU_XENOTIMA_DETRITICA
+
+M7_N1 = PROTOLITO_POTENCIAL ∧ REGOLITO_PRESERVADO
+M7_N2 = M7_N1 ∧ MOBILIDADE_REE
+M7_N3 = M7_N2 ∧ FRACAO_TROCAVEL_REE
+
+M8_N1 = PROTOLITO_FERTIL ∨ PERFIL_RESIDUAL
+M8_N2 = PROTOLITO_FERTIL ∧ PERFIL_RESIDUAL_IN_SITU
+M8_N3 = M8_N2 ∧ ENRIQUECIMENTO_RESIDUAL_REE
+
+M9_N1 = GRANITO_INDIVIDUALIZADO
+M9_N2 = M9_N1 ∧ ESPECIALIZACAO_GRANITICA
+M9_N3 = M9_N2 ∧ ETR_LOCAL_COMPATIVEL_M9
+
+M10_N1 = PEGMATITO
+M10_N2 = M10_N1 ∧ ESPECIALIZACAO_PEGMATITICA_ETR
+M10_N3 = M10_N2 ∧ MINERAL_ETR_PEGMATITO
+
+M11_N1 = DISCORDANCIA ∧ ARQUITETURA_ESTRUTURAL
+M11_N2 = M11_N1 ∧ HIDROTERMALISMO_RELACIONADO ∧ SINAL_HREE
+M11_N3 = M11_N2 ∧ XENOTIMA_HIDROTERMAL
+```
+
+## Síntese visual
+
+```text
+DISPLAY(h,s) = N3 se existe pelo menos um modelo em N3
+DISPLAY(h,s) = N2 se não há N3 e existe pelo menos um modelo em N2
+DISPLAY(h,s) = N1 se não há N3 ou N2 e existe pelo menos um modelo em N1
+DISPLAY(h,s) = N0 se nenhum modelo está aberto ou suficientemente avaliável
+```
+
+N4 permanece específico do modelo e não domina a síntese geral.

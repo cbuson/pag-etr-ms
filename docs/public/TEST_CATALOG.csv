@@ -1,0 +1,22 @@
+test_id,situacao,comportamento_obrigatorio
+T01,Carbonatito sem processo independente,M1 permanece modelo aberto
+T04,Rocha alcalina genérica,M2 permanece modelo aberto
+T06,Hidrotermalismo genérico,Não produz N2
+T07,Fosforita com fluorapatita e sem REE,M4 justifica análise dirigida
+T09,Magnetita isolada e anomalia magnética,Não cria IOA ETR
+T11,Areia aluvial sem minerais pesados,Não cria placer ETR
+T13,Granito caulinita e clima tropical,Não confirma adsorção iônica
+T16,Laterita sem protolito conhecido,Não cria M8 N2
+T18,Granito genérico,M9 permanece modelo aberto
+T21,Pegmatito genérico,M10 permanece modelo aberto
+T23,Discordância isolada,Não cria M11 N2
+T25,Área sem dados,Não avaliável e nunca baixo potencial
+T27,Valor menor que limite de detecção,Permanece censurado e nunca vira zero
+T29,Três textos para uma mesma observação,Uma evidência canônica
+T34,Coordenada histórica imprecisa,Pode relacionar-se a várias células sem duplicação
+T37,Sedimento de corrente com bacia reconstruída,Valor permanece na amostra e bacia é área fonte potencial
+T39,Dois produtos derivados do mesmo raster,Não são confirmações independentes
+T41,Mudança de escala,500 e 1000 não são médias de 250
+T45,Acúmulo de evidência contextual,Contexto acumulado não substitui requisito
+T48,Mineral não mencionado em relatório,Não documentado e nunca ausência verificada
+T53,Resultado sem cadeia de proveniência,Falha obrigatória do validador
