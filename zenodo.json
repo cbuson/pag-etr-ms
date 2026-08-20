@@ -1,0 +1,51 @@
+{
+  "title": "PAG ETR · framework reprodutível de analogia geológica para priorização de investigação geoquímica de elementos terras raras em Mato Grosso do Sul",
+  "upload_type": "software",
+  "description": "PAG ETR é um framework lógico, categórico, multiescala e reprodutível para diagnóstico de avaliabilidade e organização de hipóteses de investigação geoquímica de elementos terras raras em territórios com dados geocientíficos incompletos. Esta primeira implementação piloto em Mato Grosso do Sul preserva estados de desconhecimento, regras não compensatórias, proveniência, três malhas independentes de 250, 500 e 1.000 km², resultados congelados, scripts de reprodução, testes e uma interface cartográfica pública. O pacote reproduzível foi extraído do ITA ARANDU MS para permitir auditoria independente do piloto. PAG ETR não identifica depósitos, recursos ou reservas e não constitui autorização de campo.",
+  "creators": [
+    {
+      "name": "Busón Buesa, Carlos",
+      "affiliation": "Universidade Federal de Mato Grosso do Sul, PPGTA, FAENG",
+      "orcid": "0000-0002-1446-2252"
+    },
+    {
+      "name": "Gabas, Sandra Garcia",
+      "affiliation": "Universidade Federal de Mato Grosso do Sul, PPGTA, FAENG",
+      "orcid": "0000-0002-1027-0288"
+    }
+  ],
+  "version": "1.0.0",
+  "language": "por",
+  "keywords": [
+    "rare earth elements",
+    "elementos terras raras",
+    "mineral prospectivity",
+    "mineral systems",
+    "analogia geológica",
+    "dados incompletos",
+    "lógica não compensatória",
+    "reprodutibilidade",
+    "geociências",
+    "Mato Grosso do Sul",
+    "PAG ETR",
+    "ITA ARANDU MS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.21923101",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/cbuson/pag-etr-ms",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://cbuson.github.io/pag-etr-ms/",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Licenciamento misto. Conteúdo autoral original sob CC BY-NC-SA 4.0. Código original sob PolyForm Noncommercial License 1.0.0. Dados, mapas, imagens, bibliotecas e demais materiais de terceiros permanecem sujeitos às licenças e condições de suas fontes originais. Consulte LICENSE-CONTENT.txt, LICENSE-SOFTWARE.txt e THIRD-PARTY-NOTICES.txt."
+}

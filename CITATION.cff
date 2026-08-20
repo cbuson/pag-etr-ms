@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use PAG ETR, please cite this software release and the related
+  ITA ARANDU MS project. Original content and original code use separate
+  non-commercial licenses. See LICENSE-CONTENT.txt, LICENSE-SOFTWARE.txt
+  and THIRD-PARTY-NOTICES.txt.
+title: >-
+  PAG ETR · framework reprodutível de analogia geológica para priorização
+  de investigação geoquímica de elementos terras raras em Mato Grosso do Sul
+type: software
+version: 1.0.0
+authors:
+  - family-names: Busón Buesa
+    given-names: Carlos
+    orcid: https://orcid.org/0000-0002-1446-2252
+    affiliation: Universidade Federal de Mato Grosso do Sul, PPGTA, FAENG
+  - family-names: Gabas
+    given-names: Sandra Garcia
+    orcid: https://orcid.org/0000-0002-1027-0288
+    affiliation: Universidade Federal de Mato Grosso do Sul, PPGTA, FAENG
+repository-code: https://github.com/cbuson/pag-etr-ms
+url: https://cbuson.github.io/pag-etr-ms/
+abstract: >-
+  PAG ETR is a logical, categorical, multiscale and reproducible framework
+  for diagnosing evaluability and organizing rare-earth-element geochemical
+  investigation hypotheses in territories with incomplete geoscientific data.
+  The first pilot implementation in Mato Grosso do Sul preserves explicit
+  unknown states, non-compensatory rules, provenance, independent 250, 500
+  and 1000 km² grids, frozen results, reproduction scripts, tests and a public
+  cartographic interface. The reproducible package was extracted from
+  ITA ARANDU MS to permit independent auditing of the pilot. PAG ETR does not
+  identify deposits, resources or reserves and does not constitute field
+  authorization.
+keywords:
+  - rare earth elements
+  - elementos terras raras
+  - mineral prospectivity
+  - mineral systems
+  - analogia geológica
+  - dados incompletos
+  - lógica não compensatória
+  - reprodutibilidade
+  - geociências
+  - Mato Grosso do Sul
+references:
+  - >-
+    Busón Buesa, C., & Gabas, S. G. (2026). ITA ARANDU MS · Atlas
+    geocientífico educativo e científico de Mato Grosso do Sul
+    [Software e atlas geocientífico]. Zenodo.
+    https://doi.org/10.5281/zenodo.21923101
