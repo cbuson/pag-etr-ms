@@ -1,0 +1,46 @@
+
+:root{
+  --pagetr-brown:#5b351f;
+  --pagetr-brown-dark:#412418;
+  --pagetr-brown-mid:#74452d;
+  --pagetr-brown-light:#9a6a49;
+  --pagetr-gold:#c8924f;
+  --pagetr-cream:#f4ebe3;
+  --pagetr-cream-soft:#faf6f2;
+  --pagetr-paper:#ffffff;
+  --pagetr-line:#dcc8b8;
+  --pagetr-ink:#3c3028;
+  --pagetr-muted:#786457;
+  --blue:#5b351f !important;
+  --blue2:#412418 !important;
+  --ink:#3c3028 !important;
+  --muted:#786457 !important;
+  --bg:#f4ebe3 !important;
+  --soft:#faf6f2 !important;
+  --line:#dcc8b8 !important;
+  --paper:#ffffff !important;
+}
+html,body{background:#f4ebe3 !important;color:#3c3028 !important}
+header,.site-header,.app-header,.top-header{background:linear-gradient(135deg,#412418,#74452d) !important}
+.hero{background:linear-gradient(135deg,#412418,#74452d) !important;color:#fff !important;box-shadow:0 14px 35px #41241828 !important}
+.hero a{color:#fff3e7 !important}
+.kicker,.eyebrow,.section-kicker{color:#7a5946 !important}
+.hero .kicker,header .kicker{color:#f4dfce !important}
+h1,h2,h3,h4,.section h2,.section h3,.card b,.feature-title,.author-card b{color:#5b351f !important}
+.hero h1,.hero h2,.hero h3{color:#fff !important}
+a,.cite,.ref a,.topbar a{color:#74452d !important}
+.toc a,.doc-card,.card,.section,.content-card,.panel,.modal-content{border-color:#dcc8b8 !important}
+.toc a,.card,.doc-card{background:#faf6f2 !important}
+.note{background:#f6eee7 !important;border-left-color:#9a6a49 !important}
+.warning,.alert{background:#fff1c8 !important;border-color:#e4c88d !important;color:#4c3b1d !important}
+.phase{border-left-color:#9a6a49 !important}
+.formula{background:#35251d !important;color:#fff8f1 !important}
+.formula .muted{color:#dbc5b5 !important}
+table th{background:#f0e4da !important;color:#5b351f !important}
+table td,table th{border-bottom-color:#e5d6ca !important}
+.print,.inline-doc-link,.doc-nav-btn,button.action,.action-link{color:#5b351f !important;border-color:#cdb6a5 !important;background:#fffaf6 !important}
+.metric{background:#ffffff14 !important;border-color:#ffffff32 !important}
+.rule{color:#7b3229 !important}
+.check{background:#fbf7f3 !important;border-color:#e5d7cb !important}
+.foot,.small{color:#786457 !important}
+@media print{.hero{background:#5b351f !important}}
